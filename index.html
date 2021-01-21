@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Menu and table design</title>
+
+        <meta charset="UTF-8">
+        <meta name="author" content="Antonín Šemora">
+        <meta name="description" content="Test page with menu and table design">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="container menu-layout">
+                <h1><i class="fas fa-asterisk"></i> CSS-TRICKS</h1>
+                <div class="menu">
+                    <div class="head-menu-icons">
+                        <div class="hamburger">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                    <nav class="head-menu">
+                        <div class="close">
+                            <i class="fas fa-times"></i>
+                        </div>
+                        <ul>
+                            <li><a href="#">
+                                <i class="far fa-newspaper"></i>
+                                Articles
+                            </a></li>
+                            <li><a href="#">
+                                <i class="fas fa-film"></i>
+                                Videos
+                            </a></li>
+                            <li><a href="#">
+                                <i class="far fa-copy"></i>
+                                Almanac
+                            </a></li>
+                            <li><a href="#">
+                                <i class="far fa-file-alt"></i>
+                                Snippets
+                            </a></li>
+                            <li><a href="#">
+                                <i class="fas fa-envelope-open-text"></i>
+                                Newsletter
+                            </a></li>
+                            <li><a href="#">
+                                <i class="fas fa-map-marked-alt"></i>
+                                Guides
+                            </a></li>
+                            <li><a href="#">
+                                <i class="fas fa-user-circle"></i>
+                                Account
+                            </a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="search">
+                    <input type="text" id="search" placeholder="Search...">
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="container">
+                <div class="container-main">
+                    <h2>Snippets</h2>
+                    <blockquote>
+                        <p>
+                            There is an unmistakeable difference between a bag of rabbit parts and a rabbit
+                        </p>
+                        <small>
+                            <b class="nick">Ryan Nance</b>
+                        </small>
+                    </blockquote>
+                    <svg width="200" height="200" class="circle">
+                        <defs>
+                            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%" gradientTransform="rotate(75)">
+                              <stop offset="0%" style="stop-color:rgba(255,149,0,1);stop-opacity:1" />
+                              <stop offset="100%" style="stop-color:rgba(186,0,32,1);stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <circle cx="100" cy="100" r="100" fill="url(#grad1)"/>
+                    </svg>
+                    <svg width="900" height="125" class="line">
+                        <defs>
+                            <linearGradient id="grad2" x1="0" y1="25" x2="800" y2="25" gradientUnits="userSpaceOnUse">
+                              <stop offset="0%" style="stop-color:rgba(255,149,0,1);stop-opacity:1" />
+                              <stop offset="100%" style="stop-color:rgba(186,0,32,1);stop-opacity:1" />
+                            </linearGradient>
+                            <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="#292929"/>
+                                <stop offset="50%" stop-color="#292929"/>
+                                <stop offset="50%" style="stop-color:rgba(186,0,32,1);stop-opacity:1"/>
+                            </linearGradient>
+                        </defs>
+                        <circle cx="800" cy="62.45" r="37.45" stroke="url(#grad3)" stroke-width="3" fill="none"/>
+                        <line x1="0" y1="25" x2="800" y2="25" stroke="url(#grad2)" stroke-width="3" fill="none"/>
+                        <line x1="0" y1="100" x2="800" y2="100" stroke="url(#grad2)" stroke-width="3" fill="none"/>
+                    </svg>
+                    <div class="links">
+                        <ul>
+                            <li><a href="#">HTML</a></li>
+                            <li><a href="#">CSS</a></li>
+                            <li><a href="#">Sass</a></li>
+                            <li><a href="#">SVG</a></li>
+                            <li><a href="#">htaccess</a></li>
+                            <li><a href="#">JavaScript</a></li>
+                            <li><a href="#">jQuery</a></li>
+                            <li><a href="#">WordPress</a></li>
+                            <li><a href="#">PHP</a></li>
+                        </ul>
+                    </div>
+                    <div class="table">
+                        <ol>
+                            <li>
+                                <a href="#">A Complete Guide to Grid</a>
+                                <div>
+                                    Last updated
+                                    <br>
+                                    <time datetime="2020-07-07">
+                                        Jul 7 2020
+                                    </time>
+                                </div>
+                                <div>
+                                    Author
+                                    <br>
+                                    <a href="#">Chris Coyier</a>
+                                </div>
+                                <div>
+                                    Category
+                                    <br>
+                                    <a href="#">CSS</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">Top Shadow</a>
+                                <div>
+                                    Last updated
+                                    <br>
+                                    <time datetime="2019-09-12">
+                                        Sep 12 2019
+                                    </time>
+                                </div>
+                                <div>
+                                    Author
+                                    <br>
+                                    <a href="#">Chris Coyier</a>
+                                </div>
+                                <div>
+                                    Category
+                                    <br>
+                                    <a href="#">CSS</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">A Complete Guide to Flexbox</a>
+                                <div>
+                                    Last updated
+                                    <br>
+                                    <time datetime="2020-12-21">
+                                        Dec 21 2020
+                                    </time>
+                                </div>
+                                <div>
+                                    Author
+                                    <br>
+                                    <a href="#">Chris Coyier</a>
+                                </div>
+                                <div>
+                                    Category
+                                    <br>
+                                    <a href="#">CSS</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">Print URL After Links</a>
+                                <div>
+                                    Last updated
+                                    <br>
+                                    <time datetime="2019-08-15">
+                                        Aug 15 2019
+                                    </time>
+                                </div>
+                                <div>
+                                    Author
+                                    <br>
+                                    <a href="#">Chris Coyier</a>
+                                </div>
+                                <div>
+                                    Category
+                                    <br>
+                                    <a href="#">CSS</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">Flip an Image</a>
+                                <div>
+                                    Last updated
+                                    <br>
+                                    <time datetime="2020-02-06">
+                                        Feb 6 2020
+                                    </time>
+                                </div>
+                                <div>
+                                    Author
+                                    <br>
+                                    <a href="#">Chris Coyier</a>
+                                </div>
+                                <div>
+                                    Category
+                                    <br>
+                                    <a href="#">CSS</a>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="container footer">
+                <h3><i class="fas fa-asterisk"></i> CSS-TRICKS</h3>
+                <div>
+                    <p>This is an older template</p>
+                </div>
+                <div class="create">
+                    Create
+                    <time datetime="2021-01-06">
+                        6. ledna 2021.
+                    </time>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
